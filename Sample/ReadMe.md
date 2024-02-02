@@ -1,3 +1,4 @@
+
 # Numeric Encoding for Passwords
 
 ## Introduction
@@ -18,7 +19,7 @@ Numeric encoding offers several benefits for the security-conscious developer:
 
 To encode a string into its numeric representation, use the `AsNumeric()` extension method:
 
-c
+```csharp
 string password = "Pa$$word";
 string numericPassword = password.AsNumeric();
 Console.WriteLine(numericPassword); // Outputs the numeric representation of "Pa$$word"
@@ -27,13 +28,14 @@ Console.WriteLine(numericPassword); // Outputs the numeric representation of "Pa
 ### Decoding a Numeric String
 To decode a previously encoded numeric string back to its original text, use the FromNumeric() extension method:
 
-```c#
+```csharp
 string numericPassword = "1234567890"; // Example numeric representation
 string originalPassword = numericPassword.FromNumeric();
 Console.WriteLine(originalPassword); // Outputs the decoded string, e.g., "Pa$$word"
 ```
 
 ### Integration Example
+
 Here's a more detailed example, showcasing how to integrate these methods into a class for secure communication:
 ```csharp
 public class SecureCommunicator
