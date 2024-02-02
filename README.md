@@ -14,7 +14,10 @@ This sample code shows the use of
 
 
 ## Get Started
-
+Install [NuGet Package Walter.Cypher](https://www.nuget.org/packages/Walter.Cypher) using the version you like to use or use the latest using the following command:
+```cmd
+dotnet add package Walter.Cypher
+```
 
 Show how to cipher large amounts of text using the Crypto class
 ````C#
