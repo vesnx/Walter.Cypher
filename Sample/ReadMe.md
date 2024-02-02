@@ -60,7 +60,7 @@ public class SecureCommunicator
     // Assuming a method for network transmission, etc.
 }
 ```
-The sample file [InMyAppPrivateStuff](https://github.com/vesnx/Walter.Cypher/edit/main/Sample/InMyAppPrivateStuff.cs) showcases using a BigInteger to facilitate a shared password between an app and a server accepting data via RestApi.  
+The sample file [InMyAppPrivateStuff](https://github.com/vesnx/Walter.Cypher/blob/main/Sample/InMyAppPrivateStuff.cs) showcases using a BigInteger to facilitate a shared password between an app and a server accepting data via RestApi.  
 
 ### Security Considerations
 While the `AsNumeric()` and `FromNumeric()` methods add a layer of security by obfuscating string values, they should not be considered a replacement for robust encryption standards like AES for sensitive data protection. Instead, these methods can be part of a broader security strategy, especially for non-critical applications where simplicity and speed are desired.
